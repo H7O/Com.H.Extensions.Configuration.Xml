@@ -1,8 +1,6 @@
 # Com.H.Extensions.Configuration.Xml
 
-A library that extends the Microsoft.Extensions.Configuration library to support reading and writing configuration values to an XML file.
-The library is thread-safe and supports reading and writing values encapsulated in a CDATA section.
-
+A thread-safe library that extends the Microsoft.Extensions.Configuration library to support reading and writing configuration values to an XML file.
 
 ## Example 1
 This example demonstrates how to write a value to a configuration object and save it to automatically create a new configuration file.
