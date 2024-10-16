@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Com.H.Extensions.Configuration.Xml</AssemblyName>
+    <RootNamespace>Com.H.Extensions.Configuration.Xml</RootNamespace>
+    <ApplicationIcon>128x128.ico</ApplicationIcon>
+    <Version>8.0.0.0</Version>
+    <Authors>Hussein Al Bayati</Authors>
+    <Description>Introduces XML configuration provider for Microsoft.Extensions.Configuration that supports Save() method.</Description>
+    <Copyright>Hussein Al Bayati</Copyright>
+    <PackageProjectUrl>https://github.com/H7O/Com.H.Extensions.Configuration.Xml</PackageProjectUrl>
+    <PackageIcon>128x128.jpg</PackageIcon>
+    <PackageReadmeFile>nuget.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/H7O/Com.H.Extensions.Configuration.Xml</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>IConfiguration, configuration, dependency injection, application builder</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="128x128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\128x128.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+
+    <None Include=".\nuget.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Xml" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
