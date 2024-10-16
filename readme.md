@@ -37,7 +37,7 @@ configuration.Save();
 ```
 
 ## Example 2
-This example demonstrates how to read a value from a configuration file.
+This example demonstrates how to read a value from a configuration file, update it, and save the changes.
 
 ```csharp
 using Microsoft.Extensions.Configuration;
@@ -51,6 +51,12 @@ IConfiguration configuration = builder.Build();
 // read a value
 var value = configuration["key"];
 Console.WriteLine(value);
+
+// updating the value
+configuration["key"] = "new value";
+
+// save the changes
+configuration.Save();
 ```
 
 ## Example 3
