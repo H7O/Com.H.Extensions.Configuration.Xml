@@ -1,6 +1,6 @@
 # Com.H.Extensions.Configuration.Xml
 
-A thread-safe library that extends the Microsoft.Extensions.Configuration library to support reading and writing configuration values to an XML file.
+A thread-safe library that extends the Microsoft.Extensions.Configuration library to support reading and writing configuration values to XML configuration files.
 
 ## Installation
 Best way to install this library is via NuGet package manager [Com.H.Extensions.Configuration.Xml](https://www.nuget.org/packages/Com.H.Extensions.Configuration.Xml).
